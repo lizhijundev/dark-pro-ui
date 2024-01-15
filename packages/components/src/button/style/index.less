@@ -1,0 +1,43 @@
+
+:root{
+  --pro-primary-bg: #1388f4;
+  --pro-primary-bg2: #065fcc;
+}
+
+.d-button {
+  flex-shrink: 0;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  text-align: center;
+  white-space: nowrap;
+  cursor: pointer;
+  border: 0;
+  margin: 0;
+  border-radius: 24px;
+  font-weight: 500;
+
+  color: rgba(255,255,255,0.75);
+  background: -webkit-linear-gradient(top, var(--pro-primary-bg), var(--pro-primary-bg2));
+
+  text-decoration: none;
+  -webkit-font-smoothing: antialiased;
+  opacity: 0.8;
+  transition: all 320ms ease-out;
+  &:hover{
+    opacity: 1;
+    color: rgba(255,255,255, 1);
+  }
+}
+
+.d-button--lg {
+  padding: 12px 19px;
+}
+.d-button--md {
+  padding: 8px 15px;
+}
+.d-button--sm {
+  padding: 5px 11px;
+  font-size: 12px;
+}
