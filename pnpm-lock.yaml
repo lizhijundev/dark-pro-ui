@@ -170,7 +170,7 @@ importers:
 
   play:
     dependencies:
-      '@lizhijundev/dark-pro-ui':
+      '@lizhijundev/lizhi-ui':
         specifier: workspace:^0.1.0
         version: link:../packages/components
       easyest:
@@ -189,7 +189,7 @@ importers:
 
   site:
     dependencies:
-      '@lizhijundev/dark-pro-ui':
+      '@lizhijundev/lizhi-ui':
         specifier: workspace:^0.1.0
         version: link:../packages/components
       easyest:

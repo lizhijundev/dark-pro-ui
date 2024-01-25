@@ -1,6 +1,4 @@
 {
-  "name": "dark-pro-ui",
-  "version": "0.1.0",
   "description": "",
   "main": "index.js",
   "type": "module",
@@ -14,10 +12,12 @@
     "build:pro-ui": "gulp -f packages/components/script/build/index.ts & pnpm run --filter ./packages/utils build",
     "publish:easyest": "gulp -f packages/components/script/publish/index.ts",
     "publish:easayestutils": "gulp -f packages/utils/publish/index.ts",
+
     "docs:dev": "pnpm run --filter site docs:dev",
     "docs:build": "pnpm run --filter site docs:build",
     "docs:deploy": "pnpm run --filter site docs:deploy",
-    "pro-ui:dev": "pnpm run --filter ./play dev",
+
+    "ui:dev": "pnpm run --filter ./play dev",
     "lint:script": "eslint --ext .js,.jsx,.vue,.ts,.tsx --fix --quiet ./",
     "lint:style": "stylelint --fix \"packages/components/src/**/*.{css,less}\"",
     "prepare": "husky install",

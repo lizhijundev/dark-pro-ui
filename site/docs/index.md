@@ -17,7 +17,7 @@ hero:
       link: /guild/introduce
     - theme: alt
       text: 在 GitHub 上查看
-      link: https://github.com/qddidi/easyest
+      link: https://github.com/lizhijundev/lizhi-ui
 
 features:
   - icon: 💡

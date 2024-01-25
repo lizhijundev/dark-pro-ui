@@ -43,6 +43,6 @@ export default {
       ]
     },
 
-    socialLinks: [{ icon: 'github', link: 'https://github.com/qddidi/easyest' }]
+    socialLinks: [{ icon: 'github', link: 'https://github.com/lizhijundev/lizhi-ui' }]
   }
 };

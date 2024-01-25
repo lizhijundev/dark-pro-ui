@@ -19,3 +19,6 @@
 ### 了解更多
 
 如果你想深入了解框架如何搭建,可以点击 [Vite+TypeScript 从零搭建 Vue3 组件库](https://juejin.cn/column/7118932817119019015) 查看完整教程,有问题可以直接评论哦
+
+### 示例
+<d-button size="lg">按钮primary</d-button>

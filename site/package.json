@@ -18,7 +18,6 @@
     "vue": "^3.2.36"
   },
   "dependencies": {
-    "@lizhijundev/dark-pro-ui": "workspace:^0.1.0",
-    "easyest": "workspace:^1.0.4"
+    "@lizhijundev/lizhi-ui": "workspace:^0.1.0"
   }
 }
