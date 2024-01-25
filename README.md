@@ -1,11 +1,16 @@
-<br />
-<br />
-<div style="text-align:center">
-<b style="font-size:30px">Dark Pro UI</b>
-<p>基于Vite4+TypeScript的Vue3组件库开发框架</p>
-</div>
 
-**Dark Pro UI**是一个 **Vue3** 组件库开发环境框架,采用最新的 `Vite4+TypeScript` 为技术栈,支持`按需加载`,`单元测试`,`自动打包与发布`等功能。
+
+# 荔枝UI
+> 基于Vite4+TypeScript的Vue3组件库开发框架。**荔枝UI**是一个 **Vue3** 组件库开发环境框架，采用最新的 `Vite4+TypeScript` 为技术栈，支持`按需加载`、`单元测试`、`自动打包与发布`等功能。
+
+## 目录结构
+```angular2html
+|- packages   组件库
+|--- components
+|- play       演示
+|- site       静态文档站点
+
+```
 
 ## 快速启动
 

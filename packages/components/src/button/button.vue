@@ -8,10 +8,16 @@
 import './style/index.less';
 import { computed } from 'vue';
 defineOptions({ name: 'd-button' });
+
 type ButtonProps = {
   type?: string;
-  size?: string;
+  size?: {
+    type: string;
+    validator: (value: any, props: any) => boolean;
+    default: () => string;
+  };
 };
+
 const buttonProps = defineProps<ButtonProps>();
 
 const buttonStyle = computed(() => {
