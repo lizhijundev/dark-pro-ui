@@ -7,7 +7,7 @@
 ```angular2html
 |- packages   组件库
 |--- components
-|- play       演示
+|- play       调试项目
 |- site       静态文档站点
 
 ```

@@ -9,7 +9,7 @@
     ]
   },
   "scripts": {
-    "build:pro-ui": "gulp -f packages/components/script/build/index.ts & pnpm run --filter ./packages/utils build",
+    "build:ui": "gulp -f packages/components/script/build/index.ts & pnpm run --filter ./packages/utils build",
     "publish:easyest": "gulp -f packages/components/script/publish/index.ts",
     "publish:easayestutils": "gulp -f packages/utils/publish/index.ts",
 
